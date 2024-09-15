@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+h1,
+.input-form,
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  font-size: 36px;
+}
+
+.input-search,
+.showmore-button {
+  width: 60%;
+  max-width: 400px;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  color: #333;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.showmore-button {
+  width: 30%;
+  cursor: pointer;
+  padding: 8px;
+  display: none;
+}
+
+.search-button {
+  font-size: 18px;
+  border-radius: 5px;
+  color: #333;
+  background-color: white;
+  padding: 10px 20px;
+  margin: 0 0 20px 10px;
+  border: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.search-results {
+  width: 95%;
+  margin: 10px auto 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
