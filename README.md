@@ -1,2 +1,4 @@
 # Search-Images-App
- A basic app for finding images
+
+- Created using Unsplash API
+- Download the repo and Open index.html file on your browser
